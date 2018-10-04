@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>Obstacle</key>
+		<dict>
+			<key>Size</key>
+			<string></string>
+			<key>Position</key>
+			<string></string>
+			<key>Actions</key>
+			<dict>
+				<key>Movement</key>
+				<dict>
+					<key>Points</key>
+					<array>
+						<string>0.25,0.35</string>
+						<string>0.35,0.75</string>
+						<string>0.35,0.35</string>
+					</array>
+					<key>Duration</key>
+					<string>1.0</string>
+				</dict>
+				<key>Rotation</key>
+				<dict>
+					<key>Duration</key>
+					<string>1.5</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>2</key>
+	<array/>
+	<key>3</key>
+	<array/>
+</dict>
+</plist>
