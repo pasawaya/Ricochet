@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372C4CE61D1B5C44002309DA /* stars.txt in Resources */ = {isa = PBXBuildFile; fileRef = 372C4CE51D1B5C44002309DA /* stars.txt */; };
+		3736891A1D2B30CA00431062 /* bounce1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 373689191D2B30CA00431062 /* bounce1.gif */; };
+		3736C2BB1CEE3F9900381E73 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3736C2B91CEE3F9900381E73 /* settings_icon.png */; };
+		3736C2BC1CEE3F9900381E73 /* store_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3736C2BA1CEE3F9900381E73 /* store_icon.png */; };
+		3736C2BE1CEE41A100381E73 /* levels_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3736C2BD1CEE41A100381E73 /* levels_icon.png */; };
+		37A6C7A41C60139600A8365B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A6C7A31C60139600A8365B /* SpriteKit.framework */; };
+		37A6C7AF1C6014DC00A8365B /* PSGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6C7AE1C6014DC00A8365B /* PSGameScene.m */; };
+		37A6C7B41C6015C900A8365B /* PSPuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6C7B31C6015C900A8365B /* PSPuck.m */; };
+		37A6C7B71C6016B600A8365B /* puck.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6C7B61C6016B600A8365B /* puck.png */; };
+		37A6C7C41C60197A00A8365B /* PSWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6C7C31C60197A00A8365B /* PSWall.m */; };
+		37A6C7C71C60218700A8365B /* PSPositionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6C7C61C60218700A8365B /* PSPositionSlider.m */; };
+		37A6C7C91C60245400A8365B /* transparent_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6C7C81C60245400A8365B /* transparent_thumb.png */; };
+		37A6C7CC1C60263200A8365B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A6C7CB1C60263200A8365B /* Constants.m */; };
+		37A6C7CE1C60288800A8365B /* shotline.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A6C7CD1C60288800A8365B /* shotline.png */; };
+		37BE79D41D1B339C00EA7499 /* PSUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BE79D31D1B339C00EA7499 /* PSUserData.m */; };
+		37D6C4C61D21D18100D73DEB /* PSSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6C4C51D21D18100D73DEB /* PSSettingsView.m */; };
+		37D6C4CA1D21D19000D73DEB /* PSStoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D6C4C91D21D19000D73DEB /* PSStoreView.m */; };
+		37DEAC351C868EC900DCC3F3 /* PSGameNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEAC341C868EC900DCC3F3 /* PSGameNode.m */; };
+		37E5E4FF1D21CE57003F58BE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E5E4FE1D21CE57003F58BE /* ImageIO.framework */; };
+		37E5E5031D21CE9A003F58BE /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E5E5021D21CE9A003F58BE /* UIImage+animatedGIF.m */; };
+		37EEBED81C601342009807E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EEBED71C601342009807E7 /* main.m */; };
+		37EEBEDB1C601342009807E7 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EEBEDA1C601342009807E7 /* PSAppDelegate.m */; };
+		37EEBEDE1C601342009807E7 /* PSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EEBEDD1C601342009807E7 /* PSViewController.m */; };
+		37EEBEE11C601342009807E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EEBEDF1C601342009807E7 /* Main.storyboard */; };
+		37EEBEE31C601342009807E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EEBEE21C601342009807E7 /* Assets.xcassets */; };
+		37EEBEE61C601342009807E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EEBEE41C601342009807E7 /* LaunchScreen.storyboard */; };
+		37F989D51C603C8900E7D89C /* PSLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F989D41C603C8900E7D89C /* PSLevel.m */; };
+		37F989D91C60583C00E7D89C /* levels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37F989D81C60583C00E7D89C /* levels.txt */; };
+		FC126B641C62D38700517942 /* PSEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC126B631C62D38700517942 /* PSEndView.m */; };
+		FC126B6D1C62EE2B00517942 /* PSLevelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC126B6C1C62EE2B00517942 /* PSLevelManager.m */; };
+		FC6DF8CB1C75862900768694 /* PSPauseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DF8CA1C75862900768694 /* PSPauseView.m */; };
+		FC6DF8CD1C75871600768694 /* resume_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF8CC1C75871600768694 /* resume_button.png */; };
+		FC6DF8CF1C7588A900768694 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6DF8CE1C7588A900768694 /* pause_button.png */; };
+		FCEB24911C64072F00107FB9 /* PSHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEB24901C64072F00107FB9 /* PSHomeView.m */; };
+		FCEB24931C64081200107FB9 /* play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEB24921C64081200107FB9 /* play_icon.png */; };
+		FCFC7B201C67C9090005B1F1 /* PSLevelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC7B1F1C67C9090005B1F1 /* PSLevelsView.m */; };
+		FCFC7B231C67C9FA0005B1F1 /* PSLevelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC7B221C67C9FA0005B1F1 /* PSLevelButton.m */; };
+		FCFC7B281C6936B40005B1F1 /* star_black.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B261C6936B40005B1F1 /* star_black.png */; };
+		FCFC7B291C6936B40005B1F1 /* star_white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B271C6936B40005B1F1 /* star_white.png */; };
+		FCFC7B2D1C696BE80005B1F1 /* home_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B2C1C696BE80005B1F1 /* home_button.png */; };
+		FCFC7B2F1C696C0A0005B1F1 /* replay_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B2E1C696C0A0005B1F1 /* replay_button.png */; };
+		FCFC7B311C696C1D0005B1F1 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B301C696C1D0005B1F1 /* back_button.png */; };
+		FCFC7B331C696C2E0005B1F1 /* next_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B321C696C2E0005B1F1 /* next_button.png */; };
+		FCFC7B351C69791C0005B1F1 /* level_base.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B341C69791C0005B1F1 /* level_base.png */; };
+		FCFC7B371C697BCD0005B1F1 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC7B361C697BCD0005B1F1 /* lock.png */; };
+		FCFC7B3A1C73E1D60005B1F1 /* PSGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC7B391C73E1D60005B1F1 /* PSGameView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		372C4CE51D1B5C44002309DA /* stars.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stars.txt; sourceTree = "<group>"; };
+		373689191D2B30CA00431062 /* bounce1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bounce1.gif; sourceTree = "<group>"; };
+		3736C2B91CEE3F9900381E73 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
+		3736C2BA1CEE3F9900381E73 /* store_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_icon.png; sourceTree = "<group>"; };
+		3736C2BD1CEE41A100381E73 /* levels_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levels_icon.png; sourceTree = "<group>"; };
+		37A6C7A31C60139600A8365B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		37A6C7AD1C6014DC00A8365B /* PSGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGameScene.h; sourceTree = "<group>"; };
+		37A6C7AE1C6014DC00A8365B /* PSGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGameScene.m; sourceTree = "<group>"; };
+		37A6C7B21C6015C900A8365B /* PSPuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPuck.h; sourceTree = "<group>"; };
+		37A6C7B31C6015C900A8365B /* PSPuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPuck.m; sourceTree = "<group>"; };
+		37A6C7B61C6016B600A8365B /* puck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puck.png; sourceTree = "<group>"; };
+		37A6C7C21C60197A00A8365B /* PSWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWall.h; sourceTree = "<group>"; };
+		37A6C7C31C60197A00A8365B /* PSWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWall.m; sourceTree = "<group>"; };
+		37A6C7C51C60218700A8365B /* PSPositionSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPositionSlider.h; sourceTree = "<group>"; };
+		37A6C7C61C60218700A8365B /* PSPositionSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPositionSlider.m; sourceTree = "<group>"; };
+		37A6C7C81C60245400A8365B /* transparent_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent_thumb.png; sourceTree = "<group>"; };
+		37A6C7CA1C60263200A8365B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		37A6C7CB1C60263200A8365B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		37A6C7CD1C60288800A8365B /* shotline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotline.png; sourceTree = "<group>"; };
+		37BE79D21D1B339C00EA7499 /* PSUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUserData.h; sourceTree = "<group>"; };
+		37BE79D31D1B339C00EA7499 /* PSUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUserData.m; sourceTree = "<group>"; };
+		37D6C4C41D21D18100D73DEB /* PSSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSettingsView.h; sourceTree = "<group>"; };
+		37D6C4C51D21D18100D73DEB /* PSSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSettingsView.m; sourceTree = "<group>"; };
+		37D6C4C81D21D19000D73DEB /* PSStoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStoreView.h; sourceTree = "<group>"; };
+		37D6C4C91D21D19000D73DEB /* PSStoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStoreView.m; sourceTree = "<group>"; };
+		37DEAC331C868EC900DCC3F3 /* PSGameNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGameNode.h; sourceTree = "<group>"; };
+		37DEAC341C868EC900DCC3F3 /* PSGameNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGameNode.m; sourceTree = "<group>"; };
+		37E5E4FE1D21CE57003F58BE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		37E5E5011D21CE9A003F58BE /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		37E5E5021D21CE9A003F58BE /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		37EEBED31C601342009807E7 /* Ricochet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ricochet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EEBED71C601342009807E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37EEBED91C601342009807E7 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		37EEBEDA1C601342009807E7 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		37EEBEDC1C601342009807E7 /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
+		37EEBEDD1C601342009807E7 /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
+		37EEBEE01C601342009807E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EEBEE21C601342009807E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EEBEE51C601342009807E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37EEBEE71C601342009807E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F989D31C603C8900E7D89C /* PSLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLevel.h; sourceTree = "<group>"; };
+		37F989D41C603C8900E7D89C /* PSLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLevel.m; sourceTree = "<group>"; };
+		37F989D81C60583C00E7D89C /* levels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = levels.txt; sourceTree = "<group>"; };
+		FC126B621C62D38700517942 /* PSEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSEndView.h; sourceTree = "<group>"; };
+		FC126B631C62D38700517942 /* PSEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSEndView.m; sourceTree = "<group>"; };
+		FC126B6B1C62EE2B00517942 /* PSLevelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLevelManager.h; sourceTree = "<group>"; };
+		FC126B6C1C62EE2B00517942 /* PSLevelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLevelManager.m; sourceTree = "<group>"; };
+		FC6DF8C91C75862900768694 /* PSPauseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPauseView.h; sourceTree = "<group>"; };
+		FC6DF8CA1C75862900768694 /* PSPauseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPauseView.m; sourceTree = "<group>"; };
+		FC6DF8CC1C75871600768694 /* resume_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_button.png; sourceTree = "<group>"; };
+		FC6DF8CE1C7588A900768694 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		FCEB248F1C64072F00107FB9 /* PSHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomeView.h; sourceTree = "<group>"; };
+		FCEB24901C64072F00107FB9 /* PSHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomeView.m; sourceTree = "<group>"; };
+		FCEB24921C64081200107FB9 /* play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_icon.png; sourceTree = "<group>"; };
+		FCFC7B1E1C67C9090005B1F1 /* PSLevelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLevelsView.h; sourceTree = "<group>"; };
+		FCFC7B1F1C67C9090005B1F1 /* PSLevelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLevelsView.m; sourceTree = "<group>"; };
+		FCFC7B211C67C9FA0005B1F1 /* PSLevelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLevelButton.h; sourceTree = "<group>"; };
+		FCFC7B221C67C9FA0005B1F1 /* PSLevelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLevelButton.m; sourceTree = "<group>"; };
+		FCFC7B261C6936B40005B1F1 /* star_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_black.png; sourceTree = "<group>"; };
+		FCFC7B271C6936B40005B1F1 /* star_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_white.png; sourceTree = "<group>"; };
+		FCFC7B2C1C696BE80005B1F1 /* home_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button.png; sourceTree = "<group>"; };
+		FCFC7B2E1C696C0A0005B1F1 /* replay_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay_button.png; sourceTree = "<group>"; };
+		FCFC7B301C696C1D0005B1F1 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		FCFC7B321C696C2E0005B1F1 /* next_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_button.png; sourceTree = "<group>"; };
+		FCFC7B341C69791C0005B1F1 /* level_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_base.png; sourceTree = "<group>"; };
+		FCFC7B361C697BCD0005B1F1 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		FCFC7B381C73E1D60005B1F1 /* PSGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSGameView.h; sourceTree = "<group>"; };
+		FCFC7B391C73E1D60005B1F1 /* PSGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSGameView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EEBED01C601342009807E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E5E4FF1D21CE57003F58BE /* ImageIO.framework in Frameworks */,
+				37A6C7A41C60139600A8365B /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375611121D1806BD0070663F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				37BE79D21D1B339C00EA7499 /* PSUserData.h */,
+				37BE79D31D1B339C00EA7499 /* PSUserData.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		375D0A471C6A7210006B08FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCEB248F1C64072F00107FB9 /* PSHomeView.h */,
+				FCEB24901C64072F00107FB9 /* PSHomeView.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		375D0A481C6A721B006B08FE /* Level Selection */ = {
+			isa = PBXGroup;
+			children = (
+				FCFC7B1E1C67C9090005B1F1 /* PSLevelsView.h */,
+				FCFC7B1F1C67C9090005B1F1 /* PSLevelsView.m */,
+				FCFC7B211C67C9FA0005B1F1 /* PSLevelButton.h */,
+				FCFC7B221C67C9FA0005B1F1 /* PSLevelButton.m */,
+			);
+			name = "Level Selection";
+			sourceTree = "<group>";
+		};
+		375D0A491C6A7223006B08FE /* UI Objects */ = {
+			isa = PBXGroup;
+			children = (
+				37A6C7C51C60218700A8365B /* PSPositionSlider.h */,
+				37A6C7C61C60218700A8365B /* PSPositionSlider.m */,
+			);
+			name = "UI Objects";
+			sourceTree = "<group>";
+		};
+		37A6C7A51C60139A00A8365B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E5E4FE1D21CE57003F58BE /* ImageIO.framework */,
+				37A6C7A31C60139600A8365B /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A6C7B51C60160C00A8365B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				37F989D81C60583C00E7D89C /* levels.txt */,
+				372C4CE51D1B5C44002309DA /* stars.txt */,
+				373689191D2B30CA00431062 /* bounce1.gif */,
+				FCFC7B261C6936B40005B1F1 /* star_black.png */,
+				FCFC7B271C6936B40005B1F1 /* star_white.png */,
+				FCFC7B361C697BCD0005B1F1 /* lock.png */,
+				FC8C88EA1C669E4B00D222CB /* Buttons */,
+				FC8C88EB1C66A99F00D222CB /* Game Objects */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		37A6C7C11C6018D200A8365B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				375611121D1806BD0070663F /* User */,
+				FC126B6E1C62EE3700517942 /* Level Model */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		37D6C4C31D21D17200D73DEB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				37D6C4C41D21D18100D73DEB /* PSSettingsView.h */,
+				37D6C4C51D21D18100D73DEB /* PSSettingsView.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		37D6C4C71D21D18400D73DEB /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				37D6C4C81D21D19000D73DEB /* PSStoreView.h */,
+				37D6C4C91D21D19000D73DEB /* PSStoreView.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		37E5E5001D21CE91003F58BE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				37E5E5041D21CE9D003F58BE /* UIImage+GIF */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		37E5E5041D21CE9D003F58BE /* UIImage+GIF */ = {
+			isa = PBXGroup;
+			children = (
+				37E5E5011D21CE9A003F58BE /* UIImage+animatedGIF.h */,
+				37E5E5021D21CE9A003F58BE /* UIImage+animatedGIF.m */,
+			);
+			name = "UIImage+GIF";
+			sourceTree = "<group>";
+		};
+		37EEBECA1C601342009807E7 = {
+			isa = PBXGroup;
+			children = (
+				37EEBED51C601342009807E7 /* Ricochet */,
+				37A6C7A51C60139A00A8365B /* Frameworks */,
+				37EEBED41C601342009807E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EEBED41C601342009807E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EEBED31C601342009807E7 /* Ricochet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EEBED51C601342009807E7 /* Ricochet */ = {
+			isa = PBXGroup;
+			children = (
+				37E5E5001D21CE91003F58BE /* Libraries */,
+				37F989D61C603C9400E7D89C /* Controllers */,
+				37F989D71C603C9A00E7D89C /* Views */,
+				37A6C7C11C6018D200A8365B /* Model */,
+				FCF3BFA11CECF0DB008DC58A /* Constants */,
+				37A6C7B51C60160C00A8365B /* Assets */,
+				37EEBED61C601342009807E7 /* Supporting Files */,
+			);
+			path = Ricochet;
+			sourceTree = "<group>";
+		};
+		37EEBED61C601342009807E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37EEBEDF1C601342009807E7 /* Main.storyboard */,
+				37EEBEE21C601342009807E7 /* Assets.xcassets */,
+				37EEBEE41C601342009807E7 /* LaunchScreen.storyboard */,
+				37EEBEE71C601342009807E7 /* Info.plist */,
+				37EEBED71C601342009807E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37F989D61C603C9400E7D89C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37EEBED91C601342009807E7 /* PSAppDelegate.h */,
+				37EEBEDA1C601342009807E7 /* PSAppDelegate.m */,
+				37EEBEDC1C601342009807E7 /* PSViewController.h */,
+				37EEBEDD1C601342009807E7 /* PSViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		37F989D71C603C9A00E7D89C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				375D0A471C6A7210006B08FE /* Home */,
+				FCFC7B3B1C73E1DB0005B1F1 /* Game */,
+				FCEB24861C62FBE100107FB9 /* Nodes */,
+				375D0A481C6A721B006B08FE /* Level Selection */,
+				37D6C4C71D21D18400D73DEB /* Store */,
+				37D6C4C31D21D17200D73DEB /* Settings */,
+				FC6DF8C81C75860D00768694 /* Pause View */,
+				FCFC7B3F1C73E8A20005B1F1 /* End View */,
+				375D0A491C6A7223006B08FE /* UI Objects */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC126B6E1C62EE3700517942 /* Level Model */ = {
+			isa = PBXGroup;
+			children = (
+				37F989D31C603C8900E7D89C /* PSLevel.h */,
+				37F989D41C603C8900E7D89C /* PSLevel.m */,
+				FC126B6B1C62EE2B00517942 /* PSLevelManager.h */,
+				FC126B6C1C62EE2B00517942 /* PSLevelManager.m */,
+			);
+			name = "Level Model";
+			sourceTree = "<group>";
+		};
+		FC6DF8C81C75860D00768694 /* Pause View */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DF8C91C75862900768694 /* PSPauseView.h */,
+				FC6DF8CA1C75862900768694 /* PSPauseView.m */,
+			);
+			name = "Pause View";
+			sourceTree = "<group>";
+		};
+		FC8C88EA1C669E4B00D222CB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3736C2BD1CEE41A100381E73 /* levels_icon.png */,
+				3736C2B91CEE3F9900381E73 /* settings_icon.png */,
+				3736C2BA1CEE3F9900381E73 /* store_icon.png */,
+				FC6DF8CE1C7588A900768694 /* pause_button.png */,
+				FC6DF8CC1C75871600768694 /* resume_button.png */,
+				FCFC7B341C69791C0005B1F1 /* level_base.png */,
+				FCFC7B2E1C696C0A0005B1F1 /* replay_button.png */,
+				FCFC7B2C1C696BE80005B1F1 /* home_button.png */,
+				FCFC7B301C696C1D0005B1F1 /* back_button.png */,
+				FCFC7B321C696C2E0005B1F1 /* next_button.png */,
+				FCEB24921C64081200107FB9 /* play_icon.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		FC8C88EB1C66A99F00D222CB /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				37A6C7CD1C60288800A8365B /* shotline.png */,
+				37A6C7C81C60245400A8365B /* transparent_thumb.png */,
+				37A6C7B61C6016B600A8365B /* puck.png */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		FCEB24861C62FBE100107FB9 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				37DEAC331C868EC900DCC3F3 /* PSGameNode.h */,
+				37DEAC341C868EC900DCC3F3 /* PSGameNode.m */,
+				37A6C7B21C6015C900A8365B /* PSPuck.h */,
+				37A6C7B31C6015C900A8365B /* PSPuck.m */,
+				37A6C7C21C60197A00A8365B /* PSWall.h */,
+				37A6C7C31C60197A00A8365B /* PSWall.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		FCF3BFA11CECF0DB008DC58A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				37A6C7CA1C60263200A8365B /* Constants.h */,
+				37A6C7CB1C60263200A8365B /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		FCFC7B3B1C73E1DB0005B1F1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FCFC7B381C73E1D60005B1F1 /* PSGameView.h */,
+				FCFC7B391C73E1D60005B1F1 /* PSGameView.m */,
+				37A6C7AD1C6014DC00A8365B /* PSGameScene.h */,
+				37A6C7AE1C6014DC00A8365B /* PSGameScene.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		FCFC7B3F1C73E8A20005B1F1 /* End View */ = {
+			isa = PBXGroup;
+			children = (
+				FC126B621C62D38700517942 /* PSEndView.h */,
+				FC126B631C62D38700517942 /* PSEndView.m */,
+			);
+			name = "End View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EEBED21C601342009807E7 /* Ricochet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EEBEEA1C601342009807E7 /* Build configuration list for PBXNativeTarget "Ricochet" */;
+			buildPhases = (
+				37EEBECF1C601342009807E7 /* Sources */,
+				37EEBED01C601342009807E7 /* Frameworks */,
+				37EEBED11C601342009807E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ricochet;
+			productName = Ricochet;
+			productReference = 37EEBED31C601342009807E7 /* Ricochet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EEBECB1C601342009807E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Phiji;
+				TargetAttributes = {
+					37EEBED21C601342009807E7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q9J4SLN4HN;
+					};
+				};
+			};
+			buildConfigurationList = 37EEBECE1C601342009807E7 /* Build configuration list for PBXProject "ricochet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EEBECA1C601342009807E7;
+			productRefGroup = 37EEBED41C601342009807E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EEBED21C601342009807E7 /* Ricochet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EEBED11C601342009807E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EEBEE61C601342009807E7 /* LaunchScreen.storyboard in Resources */,
+				3736C2BB1CEE3F9900381E73 /* settings_icon.png in Resources */,
+				FCFC7B281C6936B40005B1F1 /* star_black.png in Resources */,
+				FCFC7B371C697BCD0005B1F1 /* lock.png in Resources */,
+				37A6C7B71C6016B600A8365B /* puck.png in Resources */,
+				FCFC7B351C69791C0005B1F1 /* level_base.png in Resources */,
+				FCFC7B291C6936B40005B1F1 /* star_white.png in Resources */,
+				FCFC7B2D1C696BE80005B1F1 /* home_button.png in Resources */,
+				FC6DF8CF1C7588A900768694 /* pause_button.png in Resources */,
+				37A6C7CE1C60288800A8365B /* shotline.png in Resources */,
+				3736C2BE1CEE41A100381E73 /* levels_icon.png in Resources */,
+				3736C2BC1CEE3F9900381E73 /* store_icon.png in Resources */,
+				37EEBEE31C601342009807E7 /* Assets.xcassets in Resources */,
+				37EEBEE11C601342009807E7 /* Main.storyboard in Resources */,
+				FCFC7B2F1C696C0A0005B1F1 /* replay_button.png in Resources */,
+				FCEB24931C64081200107FB9 /* play_icon.png in Resources */,
+				FCFC7B331C696C2E0005B1F1 /* next_button.png in Resources */,
+				37A6C7C91C60245400A8365B /* transparent_thumb.png in Resources */,
+				FCFC7B311C696C1D0005B1F1 /* back_button.png in Resources */,
+				3736891A1D2B30CA00431062 /* bounce1.gif in Resources */,
+				FC6DF8CD1C75871600768694 /* resume_button.png in Resources */,
+				372C4CE61D1B5C44002309DA /* stars.txt in Resources */,
+				37F989D91C60583C00E7D89C /* levels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EEBECF1C601342009807E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A6C7CC1C60263200A8365B /* Constants.m in Sources */,
+				37EEBEDE1C601342009807E7 /* PSViewController.m in Sources */,
+				37DEAC351C868EC900DCC3F3 /* PSGameNode.m in Sources */,
+				FCFC7B201C67C9090005B1F1 /* PSLevelsView.m in Sources */,
+				FC6DF8CB1C75862900768694 /* PSPauseView.m in Sources */,
+				37A6C7B41C6015C900A8365B /* PSPuck.m in Sources */,
+				37D6C4C61D21D18100D73DEB /* PSSettingsView.m in Sources */,
+				37A6C7C71C60218700A8365B /* PSPositionSlider.m in Sources */,
+				37BE79D41D1B339C00EA7499 /* PSUserData.m in Sources */,
+				37EEBEDB1C601342009807E7 /* PSAppDelegate.m in Sources */,
+				FCFC7B231C67C9FA0005B1F1 /* PSLevelButton.m in Sources */,
+				FCEB24911C64072F00107FB9 /* PSHomeView.m in Sources */,
+				FC126B6D1C62EE2B00517942 /* PSLevelManager.m in Sources */,
+				37EEBED81C601342009807E7 /* main.m in Sources */,
+				37D6C4CA1D21D19000D73DEB /* PSStoreView.m in Sources */,
+				37F989D51C603C8900E7D89C /* PSLevel.m in Sources */,
+				37A6C7C41C60197A00A8365B /* PSWall.m in Sources */,
+				37E5E5031D21CE9A003F58BE /* UIImage+animatedGIF.m in Sources */,
+				FC126B641C62D38700517942 /* PSEndView.m in Sources */,
+				37A6C7AF1C6014DC00A8365B /* PSGameScene.m in Sources */,
+				FCFC7B3A1C73E1D60005B1F1 /* PSGameView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37EEBEDF1C601342009807E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EEBEE01C601342009807E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EEBEE41C601342009807E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EEBEE51C601342009807E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EEBEE81C601342009807E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EEBEE91C601342009807E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EEBEEB1C601342009807E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ricochet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdev.Ricochet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		37EEBEEC1C601342009807E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Ricochet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdev.Ricochet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EEBECE1C601342009807E7 /* Build configuration list for PBXProject "ricochet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EEBEE81C601342009807E7 /* Debug */,
+				37EEBEE91C601342009807E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EEBEEA1C601342009807E7 /* Build configuration list for PBXNativeTarget "Ricochet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EEBEEB1C601342009807E7 /* Debug */,
+				37EEBEEC1C601342009807E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EEBECB1C601342009807E7 /* Project object */;
+}
